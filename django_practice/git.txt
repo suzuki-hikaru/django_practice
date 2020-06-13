@@ -1,0 +1,15 @@
+git init
+git add .
+git commit -m "first commit"
+
+git remote add origin git@github.com:suzuki-hikaru/django_practice.git
+//初期設定
+
+git push -u origin master
+
+＊リポジトリを変更するとき
+git remote -v
+//urlを確認
+git remote set-url origin {new-url}
+//new-urlに変更
+

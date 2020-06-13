@@ -1,0 +1,19 @@
+sudo apt-get --update
+sudo apt-get install python3
+sudo apt-get install python-pip3
+pip3 install django
+
+python3 -m virtualenv firstvirtual
+source firstvirtual/bin/activate
+deactivate
+//仮想環境
+
+django-admin startproject helloworldproject
+//フレームワークをつくる
+//ダメな時はpathとおってない可能性→sudo apt-get install django
+
+python3 manage.py runserver
+//サーバーを立ち上げる
+
+python3 manage.py startapp helloworldapp
+//アプリを作る
